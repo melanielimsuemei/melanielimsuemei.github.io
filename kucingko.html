@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<!--
+=============================================================
+  HOW TO ADD YOUR IMAGES — kucingko.html
+=============================================================
+
+  RECOMMENDED: Local images/ folder (works on GitHub Pages)
+  ────────────────────────────────────────────────────────
+  Put your images in: images/kucingko/
+  Then reference them like:
+    src="images/fsmone/social/post-01.jpg"
+    src="images/fsmone/events/moniefest-01.jpg"
+  → File names: lowercase, no spaces, use hyphens
+     e.g. monie-fest-photo-01.jpg ✓   Monie Fest Photo.jpg ✗
+
+  REPLACING A SOCIAL MEDIA PLACEHOLDER
+  ────────────────────────────────────────────────────────
+  Find:   <div class="sm-item" data-post-url="">
+            <div class="sm-placeholder">...</div>
+          </div>
+
+  Replace with:
+          <div class="sm-item" data-post-url="https://www.instagram.com/p/POST_ID">
+            <img src="images/fsmone/social/post-01.jpg" alt="" loading="lazy">
+          </div>
+
+  REPLACING AN EVENT PHOTO PLACEHOLDER
+  ────────────────────────────────────────────────────────
+  Find:   <div class="photo-slot">
+            <div class="photo-slot-placeholder">...</div>
+          </div>
+
+  Replace with:
+          <div class="photo-slot">
+            <img src="images/fsmone/events/photo-01.jpg" alt="" loading="lazy">
+          </div>
+
+  OTHER OPTIONS (if not using local files)
+  ────────────────────────────────────────────────────────
+  Cloudinary:  src="https://res.cloudinary.com/YOUR_CLOUD/image/upload/YOUR_PUBLIC_ID"
+  Imgur:       src="https://i.imgur.com/XXXXXXX.jpg"
+  GitHub raw:  src="https://raw.githubusercontent.com/USERNAME/REPO/main/images/photo.jpg"
+=============================================================
+-->
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <title>
+   Kucingko | Melanie Lim Sue Mei
+  </title>
+  <link href="style.css" rel="stylesheet">
+ </head>
+ <body>
+  <nav class="nav">
+   <div class="nav-inner">
+    <a class="nav-logo" href="index.html">
+     Melanie Lim
+    </a>
+    <ul class="nav-links">
+     <li>
+      <a href="index.html">
+       Home
+      </a>
+     </li>
+     <li class="nav-dropdown">
+      <button class="nav-dropdown-toggle">
+       Projects
+       <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
+        <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-linecap="round" stroke-width="1.5">
+        </path>
+       </svg>
+      </button>
+      <div class="nav-dropdown-menu">
+       <a href="fsmone.html">
+        FSMOne Malaysia
+       </a>
+       <a href="snakycat.html">
+        Snaky Cat
+       </a>
+       <a href="crabwar.html">
+        Crab War
+       </a>
+       <a href="clawstars.html">
+        Claw Stars
+       </a>
+       <a href="bowleh.html">
+        Bowleh
+       </a>
+       <a href="kucingko.html">
+        Kucingko
+       </a>
+       <a href="inspidea.html">
+        Inspidea
+       </a>
+       <a href="tessr.html">
+        TESSR
+       </a>
+      </div>
+     </li>
+     <li>
+      <a class="nav-icon" href="http://www.linkedin.com/in/melanie-lim-sue-mei" target="_blank" title="LinkedIn">
+       <svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18">
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z">
+        </path>
+       </svg>
+      </a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <section class="project-hero">
+   <div class="project-hero-inner">
+    <img alt="Kucingko logo" class="project-logo" src="https://static.wixstatic.com/media/63472b_c64718c50b4c4d77b1c5aba9dce4c36f~mv2.jpg">
+    <div>
+     <div class="project-hero-tags">
+      <span class="tag tag-fintech">
+       Fintech
+      </span>
+      <span class="tag tag-entertainment">
+       Entertainment
+      </span>
+     </div>
+     <h1>
+      Kucingko
+     </h1>
+     <p class="project-hero-desc">
+      Kucingko is a Bursa Malaysia-listed investment holding company with businesses in 2D/3D animation and gaming asset production. Took a unique approach to social media by showcasing the fun and playful side of office life through its office cats. 
+     </p>
+     <div class="project-socials">
+      <a class="project-social-link" href="https://www.instagram.com/kucingkolah/" target="_blank">
+       Instagram
+      </a>
+      <a class="project-social-link" href="https://www.youtube.com/@kucingkolah" target="_blank">
+       YouTube
+      </a>
+      <a class="project-social-link" href="https://www.tiktok.com/@kucingkolah" target="_blank">
+       TikTok
+      </a>
+      <a class="project-social-link" href="https://www.kucingko.com/" target="_blank">
+       Website
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <div class="stats-bar">
+   <div class="stat-block">
+    <div class="stat-block-num">
+     LAWA 2024
+    </div>
+    <div class="stat-block-label">
+     2nd Runner-Up, CEO Champion (PLC)
+    </div>
+   </div>
+   <div class="stat-block">
+    <div class="stat-block-num">
+     2&times;
+    </div>
+    <div class="stat-block-label">
+     Viral YouTube Shorts, 10K+ views overnight
+    </div>
+   </div>
+   <div class="stat-block">
+    <div class="stat-block-num">
+     10
+    </div>
+    <div class="stat-block-label">
+     Corporate governance documents authored
+    </div>
+   </div>
+  </div>
+  <div class="project-tabs">
+   <button class="project-tab active" data-group="main" data-tab="0">
+    Social Media
+   </button>
+   <button class="project-tab" data-group="main" data-tab="1">
+    Corporate Communications
+   </button>
+   <button class="project-tab" data-group="main" data-tab="2">
+    Achievements
+   </button>
+  </div>
+  <div class="project-tab-body">
+   <div class="tab-panel active" data-id="0" data-panel="main">
+    <div class="tab-overview">
+     <p>
+      Built Kucingko’s social content around the company’s office cats, turning everyday office moments into a warmer and more recognisable brand voice.
+     </p>
+    </div>
+    <div class="responsibilities-title">
+     Core Responsibilities
+    </div>
+    <ul class="responsibilities">
+     <li>
+      Created content featuring Office Cat Highlights, Fun Cat Facts, and Adorable Moments.
+     </li>
+     <li>
+      Produced posts showing team interactions with the office cats to humanise the brand.
+     </li>
+     <li>
+      Conceptualised visuals and short-form videos for Instagram, YouTube Shorts, and TikTok.
+     </li>
+     <li>
+      Planned and executed email marketing campaigns via Mailchimp for shareholders and analysts.
+     </li>
+    </ul>
+    <div class="responsibilities-title" style="margin-top:2rem">
+     Content Gallery 
+    </div>
+    <!-- GALLERY (VIDEO THUMBNAILS):
+     1. Screenshot your Reel/TikTok as a thumbnail image
+     2. Replace <div class="sm-placeholder">...</div> with <img src="images/kucingko/thumb-01.jpg" alt="" loading="lazy">
+     3. Set data-post-url="https://www.tiktok.com/..." or data-post-url="https://www.instagram.com/reel/..."
+     Clicking the thumbnail opens the video in a new tab. -->
+    <div class="sm-gallery">
+     <!-- Set data-post-url to your TikTok or Reel URL, add thumbnail img inside -->
+     <div class="sm-item" data-type="video" data-post-url="https://www.tiktok.com/@kucingkolah/video/7369829161889860881">
+      <img src="image/kucingko/barley.png" alt="" loading="lazy">
+     </div>
+     <!-- Set data-post-url to your TikTok or Reel URL, add thumbnail img inside -->
+     <div class="sm-item" data-type="video" data-post-url="https://www.instagram.com/kucingkolah/reel/C9jss6WyqWm/">
+      <img src="image/kucingko/tired.jpg" alt="" loading="lazy">
+     </div>
+     <!-- Set data-post-url to your TikTok or Reel URL, add thumbnail img inside -->
+     <div class="sm-item" data-type="video" data-post-url="https://www.instagram.com/kucingkolah/reel/C6qFytdLb4n/">
+      <img src="image/kucingko/met-gala.jpg" alt="" loading="lazy">
+     </div>
+     <!-- Set data-post-url to your TikTok or Reel URL, add thumbnail img inside -->
+     <div class="sm-item" data-type="video" data-post-url="https://www.instagram.com/kucingkolah/reel/C6IH_iXS159/">
+      <img src="image/kucingko/caught.jpg" alt="" loading="lazy">
+     </div>
+     <!-- Set data-post-url to your TikTok or Reel URL, add thumbnail img inside -->
+     <div class="sm-item" data-type="video" data-post-url="https://www.youtube.com/shorts/l-yiTcRwJ1k">
+      <img src="image/kucingko/share-screen.jpg" alt="" loading="lazy">
+     </div>
+     <!-- Set data-post-url to your TikTok or Reel URL, add thumbnail img inside -->
+     <div class="sm-item" data-type="video" data-post-url="https://www.instagram.com/kucingkolah/reel/C8Y2PaHy2uy/">
+      <img src="image/kucingko/fancy-pants.jpg" alt="" loading="lazy">
+     </div>
+     
+    </div>
+   </div>
+   <div class="tab-panel" data-id="1" data-panel="main">
+    <div class="tab-overview">
+     <p>
+      Managed Kucingko’s website content and corporate governance materials, making sure formal communications stayed accurate, organised, and consistent with the brand.
+     </p>
+    </div>
+	 <div class="responsibilities-title">
+     Core responsibilities
+    </div>
+    <ul class="responsibilities">
+     <li>
+      Designed, developed, and maintained the Kucingko website balancing corporate professionalism with brand friendliness.
+     </li>
+     <li>
+      Collaborated on the company's tagline and brand messaging for consistent tone across digital platforms.
+     </li>
+     <li>
+      Updated website content for brand campaigns, company highlights, and Bursa Malaysia announcements.
+     </li>
+    </ul>  
+    <div class="responsibilities-title">
+     Governance Documents
+    </div>
+    <ul class="article-list">
+     <li class="article-item">
+      <span class="article-num">
+       1
+      </span>
+      <span class="article-title">
+       Code of Conduct
+      </span>
+      <a class="article-link" href="https://www.kucingko.com/_files/ugd/e21776_00461e07720c476b8befcbdc7046542a.pdf" target="_blank">
+       Read
+       <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
+        <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        </path>
+       </svg>
+      </a>
+     </li>
+     <li class="article-item">
+      <span class="article-num">
+       2
+      </span>
+      <span class="article-title">
+       Whistleblowing Policy
+      </span>
+      <a class="article-link" href="https://www.kucingko.com/_files/ugd/e21776_f3693ff7d1304825a06470103e8a3d9e.pdf" target="_blank">
+       Read
+       <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
+        <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        </path>
+       </svg>
+      </a>
+     </li>
+     <li class="article-item">
+      <span class="article-num">
+       3
+      </span>
+      <span class="article-title">
+       Anti-Bribery and Corruption Policy
+      </span>
+      <a class="article-link" href="https://www.kucingko.com/_files/ugd/e21776_3729057502ab4965a72edb5035e0d91c.pdf" target="_blank">
+       Read
+       <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
+        <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        </path>
+       </svg>
+      </a>
+     </li>
+     <li class="article-item">
+      <span class="article-num">
+       4
+      </span>
+      <span class="article-title">
+       Audit and Risk Management Committee Charter
+      </span>
+      <a class="article-link" href="https://www.kucingko.com/_files/ugd/66fdd9_8b0f56df3ab440fbb1e58d05e2b07eff.pdf" target="_blank">
+       Read
+       <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
+        <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        </path>
+       </svg>
+      </a>
+     </li>
+     <li class="article-item">
+      <span class="article-num">
+       5
+      </span>
+      <span class="article-title">
+       Remuneration Committee Charter
+      </span>
+      <a class="article-link" href="https://www.kucingko.com/_files/ugd/66fdd9_6a68516569af447c9e06e8288962a4e5.pdf" target="_blank">
+       Read
+       <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
+        <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        </path>
+       </svg>
+      </a>
+     </li>
+     <li class="article-item">
+      <span class="article-num">
+       6
+      </span>
+      <span class="article-title">
+       Nomination Committee Charter
+      </span>
+      <a class="article-link" href="https://www.kucingko.com/_files/ugd/66fdd9_4962dcab68ad45b5bdbd4ecf728bfbfc.pdf" target="_blank">
+       Read
+       <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
+        <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        </path>
+       </svg>
+      </a>
+     </li>
+     <li class="article-item">
+      <span class="article-num">
+       7
+      </span>
+      <span class="article-title">
+       Board Charter
+      </span>
+      <a class="article-link" href="https://www.kucingko.com/_files/ugd/e21776_ee342e96378a456b9e5eb8e6aed1efb9.pdf" target="_blank">
+       Read
+       <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
+        <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        </path>
+       </svg>
+      </a>
+     </li>
+     <li class="article-item">
+      <span class="article-num">
+       8
+      </span>
+      <span class="article-title">
+       Code of Ethics
+      </span>
+      <a class="article-link" href="https://www.kucingko.com/_files/ugd/e21776_6147d6d6f59447a9a1ff9722fe7ffcc8.pdf" target="_blank">
+       Read
+       <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
+        <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        </path>
+       </svg>
+      </a>
+     </li>
+     <li class="article-item">
+      <span class="article-num">
+       9
+      </span>
+      <span class="article-title">
+       Board Diversity Policy
+      </span>
+      <a class="article-link" href="https://www.kucingko.com/_files/ugd/e21776_3a84353021a4472c8a54433a17c3a4b4.pdf" target="_blank">
+       Read
+       <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
+        <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        </path>
+       </svg>
+      </a>
+     </li>
+     <li class="article-item">
+      <span class="article-num">
+       10
+      </span>
+      <span class="article-title">
+       Fit and Proper Policy
+      </span>
+      <a class="article-link" href="https://www.kucingko.com/_files/ugd/e21776_b684f0d44896449d88baa84103b882ee.pdf" target="_blank">
+       Read
+       <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
+        <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        </path>
+       </svg>
+      </a>
+     </li>
+    </ul>
+    
+   </div>
+   <div class="tab-panel" data-id="2" data-panel="main">
+    <div class="achievements-grid">
+     <div class="achievement-card">
+      <div class="achievement-num">
+       🏆
+      </div>
+      <div class="achievement-label">
+		  <a href="https://lifeatwork.my/2024-winners/" target="_blank" rel="noopener noreferrer" style="color: blue; text-decoration: underline;">
+			Life At Work Awards (LAWA) 2024
+		  </a>
+		  <br>2nd Runner-Up, CEO Champion category (Public Listed Company)
+	</div>
+     </div>
+     <div class="achievement-card">
+      <div class="achievement-num">
+       10K+
+      </div>
+      <div class="achievement-label">
+       Views on each of two consecutive YouTube Shorts &mdash; organic viral reach overnight
+      </div>
+     </div>
+    </div>
+<!--
+    <div class="responsibilities-title">
+     Viral Videos
+    </div>
+    <ul class="article-list">
+     <li class="article-item">
+      <span class="article-num">
+       1
+      </span>
+      <span class="article-title">
+       YouTube Short &mdash; Office cat viral content (10,000+ views overnight)
+      </span>
+      <a class="article-link" href="https://www.youtube.com/shorts/l-yiTcRwJ1k" target="_blank">
+       Read
+       <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
+        <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        </path>
+       </svg>
+      </a>
+     </li>
+     <li class="article-item">
+      <span class="article-num">
+       2
+      </span>
+      <span class="article-title">
+       YouTube Short &mdash; Office cat viral content (10,000+ views overnight)
+      </span>
+      <a class="article-link" href="https://www.youtube.com/shorts/v5IpUsK7MQQ" target="_blank">
+       Read
+       <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
+        <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        </path>
+       </svg>
+      </a>
+     </li>
+    </ul>
+-->
+   </div>
+  </div>
+  <footer class="footer">
+   <div class="footer-inner">
+    <div>
+     <div class="footer-name">
+      Melanie Lim Sue Mei
+     </div>
+     <div class="footer-contact">
+      <a href="mailto:melanielimsuemei@gmail.com">
+       melanielimsuemei@gmail.com
+      </a>
+      <span>
+       019-2431630
+      </span>
+     </div>
+<!--
+     <div class="footer-copy">
+      &copy; 2025 Melanie Lim Sue Mei
+     </div>
+-->
+    </div>
+    <div class="footer-social">
+     <a href="http://www.linkedin.com/in/melanie-lim-sue-mei" target="_blank" title="LinkedIn">
+      <svg fill="white" height="16" viewbox="0 0 24 24" width="16">
+       <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z">
+       </path>
+      </svg>
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script>
+   document.querySelectorAll('[data-tab]').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var group=btn.dataset.group;
+    document.querySelectorAll('[data-group="'+group+'"]').forEach(function(b){b.classList.remove('active');});
+    document.querySelectorAll('[data-panel="'+group+'"]').forEach(function(p){p.classList.remove('active');});
+    btn.classList.add('active');
+    var target=btn.dataset.tab;
+    var panel=document.querySelector('[data-panel="'+group+'"][data-id="'+target+'"]');
+    if(panel) panel.classList.add('active');
+  });
+});
+  </script>
+  <script>
+   (function(){
+  var toggle = document.querySelector('.nav-dropdown-toggle');
+  var dropdown = document.querySelector('.nav-dropdown');
+  if(!toggle||!dropdown) return;
+  toggle.addEventListener('click', function(e){
+    e.stopPropagation();
+    dropdown.classList.toggle('open');
+  });
+  document.addEventListener('click', function(){
+    dropdown.classList.remove('open');
+  });
+  // Keep open while hovering menu
+  var menu = document.querySelector('.nav-dropdown-menu');
+  if(menu){
+    menu.addEventListener('click', function(e){ e.stopPropagation(); });
+  }
+})();
+  </script>
+  <!-- ══ LIGHTBOX ══ -->
+  <div class="lb" id="lb">
+   <div class="lb-bg" onclick="document.getElementById('lb').classList.remove('open')">
+   </div>
+   <div class="lb-inner">
+    <button class="lb-close" onclick="document.getElementById('lb').classList.remove('open')">
+     &times;
+    </button>
+    <img alt id="lb-img" src>
+    <!-- Post link appears when data-post-url is set on the .sm-item -->
+    <a class="lb-post-link" href="#" id="lb-link" style="display:none" target="_blank">
+     View Post&nbsp;
+     <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
+      <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      </path>
+     </svg>
+    </a>
+   </div>
+  </div>
+  <script>
+   /* Lightbox */
+(function(){
+  var lb=document.getElementById("lb"),lbImg=document.getElementById("lb-img"),lbLink=document.getElementById("lb-link");
+  if(!lb) return;
+  document.addEventListener("keydown",function(e){if(e.key==="Escape") lb.classList.remove("open");});
+  function openLb(src,url){
+    lbImg.src=src;
+    if(lbLink){ if(url){lbLink.href=url;lbLink.style.display="inline-flex";}else{lbLink.style.display="none";} }
+    lb.classList.add("open");
+  }
+  document.querySelectorAll(".sm-item img").forEach(function(img){
+    var item=img.closest(".sm-item");
+    if(item&&item.dataset.type==="video"){
+      img.style.cursor="pointer";
+    } else {
+      img.style.cursor="zoom-in";
+      img.addEventListener("click",function(e){
+        e.stopPropagation();
+        openLb(img.src, item&&item.dataset.postUrl||null);
+      });
+    }
+  });
+  /* Video items: inject play button overlay, click opens link */
+  document.querySelectorAll(".sm-item[data-type='video']").forEach(function(item){
+    item.style.cursor="pointer";
+    if(item.querySelector("img")){
+      var btn=document.createElement("div");
+      btn.className="play-btn";
+      btn.innerHTML='<svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M4 2l9 5-9 5V2z" fill="currentColor"/></svg>';
+      item.appendChild(btn);
+    }
+    item.addEventListener("click",function(){
+      var url=item.dataset.postUrl;
+      if(url) window.open(url,"_blank");
+    });
+  });
+  document.querySelectorAll(".photo-slot img,.photo-grid img").forEach(function(img){
+    img.style.cursor="zoom-in";
+    img.addEventListener("click",function(e){e.stopPropagation();openLb(img.src,null);});
+  });
+})();
+  </script>
+  <script>
+   /* Article rows clickable */
+document.querySelectorAll(".article-item").forEach(function(r){
+  r.addEventListener("click",function(e){
+    if(e.target.closest("a")) return;
+    var a=r.querySelector("a"); if(a) window.open(a.href,"_blank");
+  });
+});
+  </script>
+ </body>
+</html>
