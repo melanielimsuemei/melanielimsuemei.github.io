@@ -1,47 +1,4 @@
 <!DOCTYPE html>
-<!--
-=============================================================
-  HOW TO ADD YOUR IMAGES — fsmone.html
-=============================================================
-
-  RECOMMENDED: Local images/ folder (works on GitHub Pages)
-  ────────────────────────────────────────────────────────
-  Put your images in: images/fsmone/social/ and images/fsmone/events/
-  Then reference them like:
-    src="images/fsmone/social/post-01.jpg"
-    src="images/fsmone/events/moniefest-01.jpg"
-  → File names: lowercase, no spaces, use hyphens
-     e.g. monie-fest-photo-01.jpg ✓   Monie Fest Photo.jpg ✗
-
-  REPLACING A SOCIAL MEDIA PLACEHOLDER
-  ────────────────────────────────────────────────────────
-  Find:   <div class="sm-item" data-post-url="">
-            <div class="sm-placeholder">...</div>
-          </div>
-
-  Replace with:
-          <div class="sm-item" data-post-url="https://www.instagram.com/p/POST_ID">
-            <img src="images/fsmone/social/post-01.jpg" alt="" loading="lazy">
-          </div>
-
-  REPLACING AN EVENT PHOTO PLACEHOLDER
-  ────────────────────────────────────────────────────────
-  Find:   <div class="photo-slot">
-            <div class="photo-slot-placeholder">...</div>
-          </div>
-
-  Replace with:
-          <div class="photo-slot">
-            <img src="images/fsmone/events/photo-01.jpg" alt="" loading="lazy">
-          </div>
-
-  OTHER OPTIONS (if not using local files)
-  ────────────────────────────────────────────────────────
-  Cloudinary:  src="https://res.cloudinary.com/YOUR_CLOUD/image/upload/YOUR_PUBLIC_ID"
-  Imgur:       src="https://i.imgur.com/XXXXXXX.jpg"
-  GitHub raw:  src="https://raw.githubusercontent.com/USERNAME/REPO/main/images/photo.jpg"
-=============================================================
--->
 <html lang="en">
  <head>
   <meta charset="utf-8">
@@ -225,19 +182,19 @@
     <!-- GALLERY: replace sm-placeholder divs with <img src="YOUR_URL" alt="" loading="lazy"> -->
     <div class="sm-gallery">
      <!-- To link post: set data-post-url="https://instagram.com/p/POST_ID" -->
-     <div class="sm-item" data-post-url=>
+     <div class="sm-item" data-post-url>
       <img src="image/fsmone/fsmone-social/myr-auto-sweep-campaign.jpg" alt="" loading="lazy">
      </div>
      
-     <div class="sm-item" data-post-url=>
+     <div class="sm-item" data-post-url>
       <img src="image/fsmone/fsmone-social/aud-bonds-reduced.jpg" alt="" loading="lazy">
      </div>
      
-     <div class="sm-item" data-post-url=>
+     <div class="sm-item" data-post-url>
       <img src="image/fsmone/fsmone-social/bond-processing-fee-reduction.jpg" alt="" loading="lazy">
      </div>
 	
-     <div class="sm-item" data-post-url=>
+     <div class="sm-item" data-post-url>
       <img src="image/fsmone/fsmone-social/referral-campaign.jpg" alt="" loading="lazy">
      </div>
    
@@ -327,15 +284,15 @@
       </div>
      </div>
      <div class="work-card">
-      <img alt class="work-card-thumb" src="image/fsmone/fsmone-digital/invest-expo-2026.jpg">
+      <img alt class="work-card-thumb" src="image/fsmone/fsmone-digital/mid-year-review-2026.jpg">
       <div class="work-card-body">
        <h4>
-        FSMOne Invest Expo 2026 Microsite
+        FSMOne Mid-Year Review 2026 Microsite
        </h4>
        <p>
-        Event microsite connecting historical investing lessons with today's strategies and tomorrow's growth themes.
+        Event microsite with the theme "Bubble or Breakout?" on how investors should position their portfolio across the second half of 2026.
        </p>
-       <a class="work-card-link" href="https://connect.fsmone.com.my/lp-invest-expo-2026" target="_blank">
+       <a class="work-card-link" href="https://connect.fsmone.com.my/lp-mid-year-review-2026" target="_blank">
         View Page
         <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
          <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
@@ -483,7 +440,7 @@
       <div class="event-perf-list-title">
        Select an event
       </div>
-	<div class="event-perf-item active" data-event-sel="exh-0" style="display:none">
+	<div class="event-perf-item active" data-event-sel="exh-0">
        <div class="event-perf-item-info">
         <div class="event-perf-name">
          Invest Fair 2026
@@ -496,7 +453,7 @@
         &rarr;
        </div>
       </div>
-      <div class="event-perf-item active" data-event-sel="exh-1">
+      <div class="event-perf-item" data-event-sel="exh-1">
        <div class="event-perf-item-info">
         <div class="event-perf-name">
          Monie Fest 2026
@@ -537,7 +494,7 @@
       </div>
      </div>
      <div class="event-perf-detail">
-	<div class="event-detail-panel active" data-event-id="exh-0" style="display:none">
+	<div class="event-detail-panel active" data-event-id="exh-0">
        <div class="event-detail-title">
         Invest Fair 2026
        </div>
@@ -546,20 +503,29 @@
        </div>
        <div class="event-detail-photos">
         <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/exhibitor/monie-fest-2026/monie-fest-2026-01.jpg" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/exhibitor/invest-fair-2026/invest-fair-2026-01.jpeg" alt="" loading="lazy">
         </div>
         <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/exhibitor/monie-fest-2026/monie-fest-2026-02.jpg" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/exhibitor/invest-fair-2026/invest-fair-2026-02.jpeg" alt="" loading="lazy">
         </div>
         <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/exhibitor/monie-fest-2026/monie-fest-2026-03.jpg" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/exhibitor/invest-fair-2026/invest-fair-2026-03.jpeg" alt="" loading="lazy">
         </div>
+		 <div class="photo-slot">
+         <img src="image/fsmone/fsmone-events/exhibitor/invest-fair-2026/invest-fair-2026-04.jpeg" alt="" loading="lazy">
+        </div>
+		<div class="photo-slot" data-type="video" data-post-url="https://www.instagram.com/p/Da9nTtgx3xm/" style="position:relative;overflow:hidden;aspect-ratio:4/3;">
+		  <img src="image/fsmone/fsmone-events/exhibitor/invest-fair-2026/invest-fair-2026-thumbnail.jpg" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+		  <div class="play-btn">
+			<svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M4 2l9 5-9 5V2z" fill="currentColor"/></svg>
+		  </div>
+		</div>
        </div>
        <div class="event-overview-label">
         Event Overview
        </div>
        <p class="event-overview-text">
-        [replace text about invest fair]
+        Invest Fair 2026 is Malaysia's largest investment and financial education event, bringing together thousands of investors, industry experts, and financial enthusiasts to explore global market opportunities. With over 70 hours of talks by 100+ local and international experts, the event also introduces Duit Fest, a dedicated personal finance segment focused on helping everyday Malaysians make smarter money decisions.
        </p>
        <div class="event-stat-card">
         <div class="event-stat-label-wrap">
@@ -575,12 +541,12 @@
           &nbsp;New Accounts Opened
          </div>
          <div class="event-stat-sub">
-<!--          Directly attributed to event-->
+
          </div>
         </div>
         <div style="text-align:right">
          <div class="event-stat-num">
-          ???
+          100
          </div>
         </div>
        </div>
@@ -593,7 +559,7 @@
         </svg>
        </a>
       </div>	 
-      <div class="event-detail-panel active" data-event-id="exh-1">
+      <div class="event-detail-panel" data-event-id="exh-1">
        <div class="event-detail-title">
         Monie Fest 2026
        </div>
@@ -608,6 +574,9 @@
          <img src="image/fsmone/fsmone-events/exhibitor/monie-fest-2026/monie-fest-2026-02.jpg" alt="" loading="lazy">
         </div>
         <div class="photo-slot">
+         <img src="image/fsmone/fsmone-events/exhibitor/monie-fest-2026/monie-fest-2026-03.jpg" alt="" loading="lazy">
+        </div>
+		<div class="photo-slot">
          <img src="image/fsmone/fsmone-events/exhibitor/monie-fest-2026/monie-fest-2026-03.jpg" alt="" loading="lazy">
         </div>
        </div>
@@ -631,7 +600,7 @@
           &nbsp;New Accounts Opened
          </div>
          <div class="event-stat-sub">
-<!--          Directly attributed to event-->
+
          </div>
         </div>
         <div style="text-align:right">
@@ -662,13 +631,13 @@
 			  src="image/fsmone/fsmone-events/exhibitor/invest-smart-fest-2025/invest-smart-fest-2025-01.png" alt="" loading="lazy">
         </div>
         <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/exhibitor/invest-smart-fest-2025/invest-smart-fest-2025-02.JPG" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/exhibitor/invest-smart-fest-2025/invest-smart-fest-2025-02.jpg" alt="" loading="lazy">
         </div>
         <div class="photo-slot">
-          <img src="image/fsmone/fsmone-events/exhibitor/invest-smart-fest-2025/invest-smart-fest-2025-03.JPG" alt="" loading="lazy">
+          <img src="image/fsmone/fsmone-events/exhibitor/invest-smart-fest-2025/invest-smart-fest-2025-03.jpg" alt="" loading="lazy">
         </div>
 		 <div class="photo-slot">
-          <img src="image/fsmone/fsmone-events/exhibitor/invest-smart-fest-2025/invest-smart-fest-2025-04.JPG" alt="" loading="lazy">
+          <img src="image/fsmone/fsmone-events/exhibitor/invest-smart-fest-2025/invest-smart-fest-2025-04.jpg" alt="" loading="lazy">
         </div>
        </div>
        <div class="event-overview-label">
@@ -691,7 +660,7 @@
           &nbsp;New Accounts Opened
          </div>
          <div class="event-stat-sub">
-<!--          Directly attributed to event-->
+
          </div>
         </div>
         <div style="text-align:right">
@@ -719,14 +688,17 @@
        <div class="event-detail-photos">
         <div class="photo-slot">
          <img style="object-position: bottom"
-			  src="image/fsmone/fsmone-events/exhibitor/invest-fair-2025/invest-fair-2025-01.JPG" alt="" loading="lazy">
+			  src="image/fsmone/fsmone-events/exhibitor/invest-fair-2025/invest-fair-2025-01.jpg" alt="" loading="lazy">
         </div>
         <div class="photo-slot">
          <img style="object-position: 100% 65%"
-			  src="image/fsmone/fsmone-events/exhibitor/invest-fair-2025/invest-fair-2025-02.JPG" alt="" loading="lazy">
+			  src="image/fsmone/fsmone-events/exhibitor/invest-fair-2025/invest-fair-2025-02.jpg" alt="" loading="lazy">
         </div>
         <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/exhibitor/invest-fair-2025/invest-fair-2025-03.JPG" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/exhibitor/invest-fair-2025/invest-fair-2025-03.jpg" alt="" loading="lazy">
+        </div>   
+		<div class="photo-slot">
+         <img src="image/fsmone/fsmone-events/exhibitor/invest-fair-2025/invest-fair-2025-04.jpg" alt="" loading="lazy">
         </div>
        </div>
        <div class="event-overview-label">
@@ -798,10 +770,10 @@
       <div class="event-perf-list-title">
        Select an event
       </div>
-		 <div class="event-perf-item active" data-event-sel="flag-0" style="display:none"> 
+		 <div class="event-perf-item active" data-event-sel="flag-0"> 
        <div class="event-perf-item-info">
         <div class="event-perf-name">
-         FSMOne Mid-Year Review Investing Seminar
+         FSMOne Mid-Year Review 2026
         </div>
         <div class="event-perf-date">
          Jul 11, 2026
@@ -811,7 +783,7 @@
         &rarr;
        </div>
       </div>
-      <div class="event-perf-item active" data-event-sel="flag-1">
+      <div class="event-perf-item" data-event-sel="flag-1">
        <div class="event-perf-item-info">
         <div class="event-perf-name">
          FSMOne Invest Expo 2026
@@ -839,45 +811,45 @@
       </div>
      </div>
 		<div class="event-perf-detail">
-      <div class="event-detail-panel active" data-event-id="flag-0" style="display:none">
+      <div class="event-detail-panel active" data-event-id="flag-0">
        <div class="event-detail-title">
-        FSMOne Mid-Year Review Investing Seminar
+        FSMOne Mid-Year Review 2026
        </div>
        <div class="event-detail-meta">
-        📍&nbsp;Securities Commission Malaysia, Corporate Auditorium &nbsp;&bull;&nbsp; 📅&nbsp;11 July 2026
+        📍&nbsp;Securities Commission Malaysia, Auditorium &nbsp;&bull;&nbsp; 📅&nbsp;11 July 2026
        </div>
        <div class="event-detail-photos">
         <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/invest-expo-2026/invest-expo-2026-01.jpg" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/mid-year-2026/mid-year-2026-01.jpg" alt="" loading="lazy">
         </div>
         <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/invest-expo-2026/invest-expo-2026-02.jpg" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/mid-year-2026/mid-year-2026-02.jpg" alt="" loading="lazy">
         </div>
         <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/invest-expo-2026/invest-expo-2026-03.jpg" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/mid-year-2026/mid-year-2026-03.jpg" alt="" loading="lazy">
         </div>
 		  <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/invest-expo-2026/invest-expo-2026-04.jpg" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/mid-year-2026/mid-year-2026-04.jpg" alt="" loading="lazy">
         </div>
 		   
 		 <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/invest-expo-2026/invest-expo-2026-05.jpg" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/mid-year-2026/mid-year-2026-05.jpg" alt="" loading="lazy">
         </div>
 		   
 		  <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/invest-expo-2026/invest-expo-2026-06.jpg" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/mid-year-2026/mid-year-2026-06.jpg" alt="" loading="lazy">
         </div>
 		 <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/invest-expo-2026/invest-expo-2026-07.jpg" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/mid-year-2026/mid-year-2026-07.jpg" alt="" loading="lazy">
         </div>
 		 <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/invest-expo-2026/invest-expo-2026-08.jpg" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/mid-year-2026/mid-year-2026-08.jpg" alt="" loading="lazy">
         </div>
 		 <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/invest-expo-2026/invest-expo-2026-09.jpg" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/mid-year-2026/mid-year-2026-09.jpg" alt="" loading="lazy">
         </div>
 		 <div class="photo-slot">
-         <img src="image/fsmone/fsmone-events/invest-expo-2026/invest-expo-2026-10.jpg" alt="" loading="lazy">
+         <img src="image/fsmone/fsmone-events/mid-year-2026/mid-year-2026-10.jpg" alt="" loading="lazy">
         </div>
 		 
 		
@@ -886,7 +858,7 @@
         Event Overview
        </div>
        <p class="event-overview-text">
-        TBA
+        FSMOne Mid-Year Review 2026 is a full-day investment conference built around the theme “Bubble or Breakout?”. The event explores the AI-led market rally, changing interest-rate and income dynamics, Asia’s market momentum, and the impact of oil, geopolitics and the ringgit—helping investors review what worked, understand what changed, and position their portfolios for the second half of 2026.
        </p>
        <div class="event-stat-card">
         <div class="event-stat-label-wrap">
@@ -907,61 +879,41 @@
         </div>
         <div style="text-align:right">
          <div class="event-stat-num">
-          TBA
+          502
          </div>
          <div class="event-stat-delta">
-          &uarr;TBA
+          &uarr;18% YoY
          </div>
         </div>
        </div>
        <!-- MICROSITE BUTTON (in-house) — To hide: add style="display:none" to the a tag -->
-       <a class="event-microsite-btn" href="https://connect.fsmone.com.my/lp-invest-expo-2026" target="_blank">
+       <a class="event-microsite-btn" href="https://connect.fsmone.com.my/lp-mid-year-review-2026" target="_blank">
         Visit Event Microsite
         <svg fill="none" height="12" viewbox="0 0 12 12" width="12">
          <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
          </path>
         </svg>
        </a>
-       <!-- ═══════════════════════════════════════════════════════════════
-            HIGHLIGHT VIDEO
-            ─ YouTube:    uncomment the iframe block below and paste your embed URL
-                          Get the VIDEO_ID from your YouTube link: youtube.com/watch?v=VIDEO_ID
-            ─ Local file: uncomment the video block below and set the file path
-                          Recommended folder: images/fsmone/events/
-            ─ Delete the placeholder div once a video is added
-            ═══════════════════════════════════════════════════════════════ -->
+
        <div class="event-overview-label" style="margin-top:1.25rem">
         Highlight Video
        </div>
-       <div class="event-video-wrap">
+       <div class="event-video-wrap" style="overflow:visible;">
 
-        <!-- YOUTUBE — replace VIDEO_ID with the ID from your YouTube URL -->
-<!--         <iframe src="https://www.youtube.com/embed/8JbLpanGdLY?si=yVFgNDImZ8L94spw" allowfullscreen></iframe> -->
+     
+	<div style="position:relative;cursor:pointer;" onclick="window.open('https://www.instagram.com/p/DbABHgkiA6P/','_blank')">
+	  <img src="image/fsmone/fsmone-events/mid-year-2026/mid-year-2026-recap-crop.png" style="width:100%;height:auto;display:block;border-radius:8px;">
+	  <div class="play-btn">
+		<svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M4 2l9 5-9 5V2z" fill="currentColor"/></svg>
+	  </div>
+	</div>
 
-        <!-- LOCAL FILE — replace the src with your video file path -->
-        <!-- <video controls>
-          <source src="images/fsmone/events/highlight.mp4" type="video/mp4">
-        </video> -->
 
-        <!-- Remove this placeholder once you add a video above -->
-<!--
-        <div class="event-video-placeholder">
-         <svg fill="none" height="28" viewbox="0 0 24 24" width="28">
-          <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5">
-          </circle>
-          <path d="M10 8l6 4-6 4V8z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-          </path>
-         </svg>
-         <span>
-          Add highlight video
-         </span>
-        </div>
--->
 
        </div>
       </div>
      <div class="event-perf-detail">
-      <div class="event-detail-panel active" data-event-id="flag-1">
+      <div class="event-detail-panel" data-event-id="flag-1">
        <div class="event-detail-title">
         FSMOne Invest Expo 2026
        </div>
@@ -1024,7 +976,7 @@
           &nbsp;Attendees
          </div>
          <div class="event-stat-sub">
-<!--          Directly attributed to event-->
+
          </div>
         </div>
         <div style="text-align:right">
@@ -1044,14 +996,7 @@
          </path>
         </svg>
        </a>
-       <!-- ═══════════════════════════════════════════════════════════════
-            HIGHLIGHT VIDEO
-            ─ YouTube:    uncomment the iframe block below and paste your embed URL
-                          Get the VIDEO_ID from your YouTube link: youtube.com/watch?v=VIDEO_ID
-            ─ Local file: uncomment the video block below and set the file path
-                          Recommended folder: images/fsmone/events/
-            ─ Delete the placeholder div once a video is added
-            ═══════════════════════════════════════════════════════════════ -->
+
        <div class="event-overview-label" style="margin-top:1.25rem">
         Highlight Video
        </div>
@@ -1060,25 +1005,7 @@
         <!-- YOUTUBE — replace VIDEO_ID with the ID from your YouTube URL -->
          <iframe src="https://www.youtube.com/embed/8JbLpanGdLY?si=yVFgNDImZ8L94spw" allowfullscreen></iframe> 
 
-        <!-- LOCAL FILE — replace the src with your video file path -->
-        <!-- <video controls>
-          <source src="images/fsmone/events/highlight.mp4" type="video/mp4">
-        </video> -->
-
-        <!-- Remove this placeholder once you add a video above -->
-<!--
-        <div class="event-video-placeholder">
-         <svg fill="none" height="28" viewbox="0 0 24 24" width="28">
-          <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5">
-          </circle>
-          <path d="M10 8l6 4-6 4V8z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-          </path>
-         </svg>
-         <span>
-          Add highlight video
-         </span>
-        </div>
--->
+       
 
        </div>
       </div>
@@ -1144,7 +1071,7 @@
           &nbsp;Attendees
          </div>
          <div class="event-stat-sub">
-<!--          Directly attributed to event-->
+
          </div>
         </div>
         <div style="text-align:right">
@@ -1187,20 +1114,7 @@
         </video> 
 -->
 
-        <!-- Remove this placeholder once you add a video above -->
-<!--
-        <div class="event-video-placeholder">
-         <svg fill="none" height="28" viewbox="0 0 24 24" width="28">
-          <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5">
-          </circle>
-          <path d="M10 8l6 4-6 4V8z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-          </path>
-         </svg>
-         <span>
-          Add highlight video
-         </span>
-        </div>
--->
+
 
        </div>
       </div>
@@ -1223,11 +1137,7 @@
        019-2431630
       </span>
      </div>
-<!--
-     <div class="footer-copy">
-      &copy; 2025 Melanie Lim Sue Mei
-     </div>
--->
+
     </div>
     <div class="footer-social">
      <a href="http://www.linkedin.com/in/melanie-lim-sue-mei" target="_blank" title="LinkedIn">
@@ -1313,8 +1223,8 @@
     </a>
    </div>
   </div>
-  <script>
-   /* Lightbox */
+<script>
+/* Lightbox */
 (function(){
   var lb=document.getElementById("lb"),lbImg=document.getElementById("lb-img"),lbLink=document.getElementById("lb-link");
   if(!lb) return;
@@ -1324,49 +1234,32 @@
     if(lbLink){ if(url){lbLink.href=url;lbLink.style.display="inline-flex";}else{lbLink.style.display="none";} }
     lb.classList.add("open");
   }
-	
-	// Image items — open lightbox
-document.querySelectorAll(".sm-item img").forEach(function(img) {
-  var item = img.closest(".sm-item");
-  if (item && item.dataset.type === "video") {
-    // skip — handled below
-  } else {
-    img.style.cursor = "zoom-in";
-    img.addEventListener("click", function(e) {
+  document.querySelectorAll(".sm-item img").forEach(function(img){
+    img.style.cursor="zoom-in";
+    img.addEventListener("click",function(e){
       e.stopPropagation();
-      openLb(img.src, null);
+      var item=img.closest(".sm-item");
+      openLb(img.src, item&&item.dataset.postUrl||null);
     });
-  }
-});
-
-// Video items — inject play button, click opens link
-document.querySelectorAll(".sm-item[data-type='video']").forEach(function(item) {
-  item.style.cursor = "pointer";
-  if (item.querySelector("img")) {
-    var btn = document.createElement("div");
-    btn.className = "play-btn";
-    btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M4 2l9 5-9 5V2z" fill="currentColor"/></svg>';
-    item.appendChild(btn);
-  }
-  item.addEventListener("click", function() {
-    var url = item.dataset.postUrl;
-    if (url) window.open(url, "_blank");
   });
-});
-//  document.querySelectorAll(".sm-item img").forEach(function(img){
-//    img.style.cursor="zoom-in";
-//    img.addEventListener("click",function(e){
-//      e.stopPropagation();
-//      var item=img.closest(".sm-item");
-//      openLb(img.src, item&&item.dataset.postUrl||null);
-//    });
-//  });
   document.querySelectorAll(".photo-slot img,.photo-grid img").forEach(function(img){
+    if(img.closest("[data-type='video']")) return;
     img.style.cursor="zoom-in";
     img.addEventListener("click",function(e){e.stopPropagation();openLb(img.src,null);});
   });
 })();
-  </script>
+</script>
+<script>
+	
+document.querySelectorAll(".photo-slot[data-type='video']").forEach(function(slot){
+  slot.style.cursor="pointer";
+  slot.addEventListener("click",function(){
+    var url=slot.dataset.postUrl;
+    if(url) window.open(url,"_blank");
+  });
+});
+</script>
+  
   <script>
    /* Event sidebar */
 document.querySelectorAll("[data-event-sel]").forEach(function(item){
@@ -1399,5 +1292,6 @@ document.querySelectorAll(".article-item").forEach(function(r){
   });
 });
   </script>
+	 <script async src="//www.instagram.com/embed.js"></script>
  </body>
 </html>
