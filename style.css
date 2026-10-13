@@ -279,3 +279,25 @@ p{color:var(--muted)}
 .lb-close:hover{opacity:1}
 .lb-post-link{display:inline-flex;align-items:center;gap:.4rem;padding:.48rem 1.1rem;background:var(--accent);color:#fff;border-radius:6px;font-size:.82rem;font-weight:700;text-decoration:none;transition:opacity .15s}
 .lb-post-link:hover{opacity:.86}
+
+/* ── Event list: load more ── */
+.event-perf-item.is-hidden{display:none}
+.event-load-more{width:100%;margin-top:.15rem;padding:.6rem .85rem;border-radius:8px;border:1.5px dashed var(--accent);background:transparent;color:var(--accent);font-family:var(--sans);font-size:.8rem;font-weight:700;cursor:pointer;transition:background .15s,color .15s}
+.event-load-more:hover{background:var(--accent);color:#fff;border-style:solid}
+
+/* ── AMA webinar series ── */
+.webinar-series-intro{font-size:.9rem;color:var(--muted);max-width:760px;margin-bottom:.5rem}
+.webinar-banner{position:relative;border-radius:8px;overflow:hidden;margin-bottom:1.25rem;border:1px solid var(--border);cursor:pointer}
+.webinar-banner img{width:100%;height:auto;display:block;transition:opacity .2s}
+.webinar-banner:hover img{opacity:.88}
+.webinar-stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:.6rem}
+.webinar-stat{background:var(--accent-light);border:1.5px solid var(--accent);border-radius:10px;padding:.75rem .9rem}
+.webinar-stat-num{font-size:1.4rem;font-weight:800;color:var(--accent);font-family:var(--sans);line-height:1.1}
+.webinar-stat-label{font-size:.72rem;color:var(--muted);margin-top:.2rem;line-height:1.3}
+.reel-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:.6rem;margin-bottom:.5rem}
+.reel-slot{position:relative;aspect-ratio:9/16;cursor:pointer}
+.reel-slot img{cursor:pointer;transition:transform .25s}
+.reel-slot::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.18);pointer-events:none;transition:background .2s}
+.reel-slot:hover::after{background:rgba(0,0,0,.35)}
+.reel-slot:hover img{transform:scale(1.04)}
+.reel-slot:hover .play-btn{transform:translate(-50%,-50%) scale(1.1)}
